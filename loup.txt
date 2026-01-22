@@ -1,0 +1,37 @@
+start:berger gauche, loup gauche, chevre gauche, chou gauche,
+finish:berger droite, loup droite, chevre droite, chou droite,
+****
+action:berger traverse avec loup,
+preconds:berger gauche, loup gauche, chevre droite,
+add:berger droite, loup droite,
+delete:berger gauche, loup gauche,
+****
+action:berger retourne seul,
+preconds:berger droite, loup gauche, chou gauche, chevre droite,
+add:berger gauche,
+delete:berger droite,
+****
+action:berger traverse avec chou,
+preconds:berger gauche, chou gauche, chevre gauche,
+add:berger droite, chou droite,
+delete:berger gauche, chou gauche,
+****
+action:berger retourne avec chevre,
+preconds:berger droite, chevre droite, loup droite,
+add:berger gauche, chevre gauche,
+delete:berger droite, chevre droite,
+****
+action:berger retourne seul,
+preconds:berger droite, loup droite, chou droite, chevre gauche,
+add:berger gauche,
+delete:berger droite,
+****
+action:berger traverse avec chevre,
+preconds:berger gauche, chevre gauche,
+add:berger droite, chevre droite,
+delete:berger gauche, chevre gauche,
+****
+action:berger traverse avec chevre,
+preconds:berger gauche, chevre gauche,
+add:berger droite, chevre droite,
+delete:berger gauche, chevre gauche,
