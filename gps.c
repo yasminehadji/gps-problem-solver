@@ -281,8 +281,3 @@ int main() {
 
     return 0;
 }
-/*État 0 (Initial)
-   → Règle 1 → État 1
-      → Règle 2 → État 2 (Impasse)
-         → BACKTRACK à État 1
-      → Règle 3 → État 3 (Solution)*/
