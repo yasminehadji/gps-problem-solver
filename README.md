@@ -44,7 +44,7 @@ Ce projet a été réalisé dans un cadre académique (Licence 2 Informatique).
 ```bash 
 gcc gps.c -o gps
 ./gps
-
+```
 ## Exemple de structure du fichier d’entrée
 ```txt
 start: fait1,fait2
@@ -55,6 +55,5 @@ action: action1
 preconds: fait1
 add: fait3
 delete: fait2
-
 
 
